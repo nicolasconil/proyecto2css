@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(235, 233, 233);
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(193, 228, 240);
+}
+
+.active {
+    background-color: rgb(193, 228, 240);
+}
+
+.responsive {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .responsive {
+        display: block;
+        float: right;
+        padding: 12px;
+        color: white;
+    }
+    a {
+        display: none;
+    }
+}
+
+i {
+    padding: 0 5px;
+}
+
+.introduccion {
+    text-align: center;
+    margin: 0 15px;
+}

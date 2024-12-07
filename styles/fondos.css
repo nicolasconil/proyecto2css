@@ -1,0 +1,27 @@
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(235, 233, 233);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div {    
+    width: 25vw;
+    height: 50vh;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.plano {
+    background-color: rgb(193, 228, 240);
+}
+
+.gradiente {
+    background: linear-gradient(to right,rgb(115, 153, 167), white );
+}   
+
+.imagen {
+    background-image: url(/assets/img/sky-clouds-pictures-xml60o3pdk7wcic0.jpg);
+}
